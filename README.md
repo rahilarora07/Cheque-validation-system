@@ -8,6 +8,7 @@ procedure. Person to person the results might vary while checking the necessary 
 ## Solution for the problem
 
 The proposed methodology verifies a hand written identity on the cheque by identifying and examining the main features in a cheque. It includes complete feature extraction of the account holder’s signature authentication, Account number extraction, cheque number extraction. The complete feature extraction on the cheque is carried and compared with the collected database, which is the account holder’s source of information, is clarified and recognized. A GUI screen is created to show implemented results based on the selection made on the GUI screen and a message box displays the authentication message. Any validations that are not completely read and correlated are emphasized as invalid and it forwarded to the customer for extra action.
+![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02_scanned.jpg)
 
 ## Procedure
 1. First we make a point transform.py (Appendix A) where we get the contours of the cheque.
