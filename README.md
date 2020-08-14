@@ -1,6 +1,6 @@
 # Cheque-validation-system
 
-<img src="https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02.jpeg" width="800" height="300"/> 
+<p><img src="https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02.jpeg" width="800" height="300"/></p>
 
 ## Current scenario
 
