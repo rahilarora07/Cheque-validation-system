@@ -1,6 +1,6 @@
 # Cheque-validation-system
 
-<img src="https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02.jpeg" width="300" height="400"/> 
+<img src="https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02.jpeg" width="700" height="400"/> 
 
 ## Current scenario
 
@@ -22,6 +22,7 @@ The proposed methodology verifies a hand written identity on the cheque by ident
 ![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/ocr.jpg)
 4. After this we take this feature that are yet just images and convert it into text form to validate all the information from the bank’s database in image to text.py (Appendix D)
 5. The last part of this project helps us to find recognize the signature using the file signature recognition.py (Appendix E)
+![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/sign.jpg)
 
 ## Requirements
 Hardware - Arduino , DC motors, IR sensor
