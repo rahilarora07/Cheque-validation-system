@@ -5,7 +5,7 @@
 Current cheque validation procedure involves a lot of manual labour, and is also a time consuming one. This also gives a chance for human errors and inefficiency throughout the
 procedure. Person to person the results might vary while checking the necessary details in a cheque. Had there been a standard method carried out for all the cheque, it would definitely lead to less errors. Also outcomes like cheque bouncing are informed to the account holder after quite a number of days, there is good room for improvement regarding this too. By informing the account holder about the status of transaction as soon as possible would save a lot of time.
 
-## Solution to the problem
+## Solution for the problem
 
 The proposed methodology verifies a hand written identity on the cheque by identifying and examining the main features in a cheque. It includes complete feature extraction of the account holder’s signature authentication, Account number extraction, cheque number extraction. The complete feature extraction on the cheque is carried and compared with the collected database, which is the account holder’s source of information, is clarified and recognized. A GUI screen is created to show implemented results based on the selection made on the GUI screen and a message box displays the authentication message. Any validations that are not completely read and correlated are emphasized as invalid and it forwarded to the customer for extra action.
 
@@ -18,6 +18,7 @@ The proposed methodology verifies a hand written identity on the cheque by ident
 
 ## Requirements
 Hardware - Arduino , DC motors, IR sensor
+
 Software - keras, sklearn, pillow,os,pandas,numpy,mataplotlib, ticker,skiimage,opencv,imutils.
 
  ## Conclusion
