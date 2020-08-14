@@ -1,6 +1,6 @@
 # Cheque-validation-system
 
-<img src="https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02.jpeg" width="700" height="200"/> 
+<img src="https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02.jpeg" width="800" height="300"/> 
 
 ## Current scenario
 
@@ -15,6 +15,7 @@ The proposed methodology verifies a hand written identity on the cheque by ident
 ## Procedure
 1. First we make a point transform.py (Appendix A) where we get the contours of the cheque.
 2. Secondly we scan the file using scanner.py (Appendix B) that gets the file and approximate the cheque into a rectangular cheque with the help of the point transform.py
+
 ![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02_scanned.jpg)
 3. Then we extract the features from the cheque we scanned like Account Number, Amount in words, and Amount in digits and Signature with the help of the code written in feature extraction.py (Appendix C).
 ![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/acc_num.jpg)      ![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/amt_num.jpg)         ![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/amt_word_1.jpg)
