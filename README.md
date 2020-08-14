@@ -1,5 +1,7 @@
 # Cheque-validation-system
 
+<img scr="https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02.jpeg" width="600" height ="300" />
+
 ## Current scenario
 
 Current cheque validation procedure involves a lot of manual labour, and is also a time consuming one. This also gives a chance for human errors and inefficiency throughout the
@@ -8,12 +10,16 @@ procedure. Person to person the results might vary while checking the necessary 
 ## Solution for the problem
 
 The proposed methodology verifies a hand written identity on the cheque by identifying and examining the main features in a cheque. It includes complete feature extraction of the account holder’s signature authentication, Account number extraction, cheque number extraction. The complete feature extraction on the cheque is carried and compared with the collected database, which is the account holder’s source of information, is clarified and recognized. A GUI screen is created to show implemented results based on the selection made on the GUI screen and a message box displays the authentication message. Any validations that are not completely read and correlated are emphasized as invalid and it forwarded to the customer for extra action.
-![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02_scanned.jpg)
+
 
 ## Procedure
 1. First we make a point transform.py (Appendix A) where we get the contours of the cheque.
 2. Secondly we scan the file using scanner.py (Appendix B) that gets the file and approximate the cheque into a rectangular cheque with the help of the point transform.py
+![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/cheque_02_scanned.jpg)
 3. Then we extract the features from the cheque we scanned like Account Number, Amount in words, and Amount in digits and Signature with the help of the code written in feature extraction.py (Appendix C).
+![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/acc_num.jpg)      ![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/amt_num.jpg)         ![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/amt_word_1.jpg)
+![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/amt_word_2.jpg)      
+![](https://github.com/rahilarora07/Cheque-validation-system/blob/master/images/ocr.jpg)
 4. After this we take this feature that are yet just images and convert it into text form to validate all the information from the bank’s database in image to text.py (Appendix D)
 5. The last part of this project helps us to find recognize the signature using the file signature recognition.py (Appendix E)
 
